@@ -1,0 +1,140 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.nav a{
+	text-decoration: underline;
+	float: left;
+    color: #333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.nav{
+	z-index: 2;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 19px 0 5px;
+    padding: 0 96px 0 0;
+}
+.nav .last{
+	position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+}
+.logo{
+	margin-top: 48px;
+	text-align: center;
+}
+.logo img{
+	width: 270px;
+	height: 129px;
+}
+.form{
+	margin: 22px auto 0;
+    width: 641px;
+    text-align: left;
+    z-index: 100;
+}
+.form_span{
+	background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+.form_ip{
+	width: 500px;
+	height: 22px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.form_span>img{
+	width: 18px;
+	height: 16px;
+	cursor: pointer;
+}
+.btn{
+	width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    border: none;
+}
+.ewm{
+	padding-top: 185px;
+	width: 60px;
+	height: 86px;
+	margin: 0 auto;
+	color: #666;
+	font-size: 12px;
+    font-weight: 700;
+}
+.footer_nav{
+	width: 100%;
+	padding-top: 10px;
+}
+.footer_box{
+	width: 530px;
+	margin:0 auto;
+}
+.footer_box .dy_p{
+	line-height: 22px;
+	text-align:center;
+}
+.footer_box .dy_p a{
+	text-decoration: underline;
+	color: #999;
+	font-size: 12px;
+	margin-left: 25px;
+}
+.footer_box .dy_p .dy{
+	margin-left: 0;
+}
+.last_p{
+	color: #999;
+	font-size: 12px;
+}
+.last_p>a{
+	text-decoration: underline;
+	color: #999;
+	font-size: 12px;
+}
+.lasta{
+	margin-left: 19px;
+}
